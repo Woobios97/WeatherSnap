@@ -1,0 +1,134 @@
+{
+  "identifier" : "F11FD124",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "B2D3503A",
+      "localizations" : [
+
+      ],
+      "name" : "WeatherSnap Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "BE901A7E",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock daily forecast",
+              "displayName" : "Pro Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "더 많은 날씨를 경험하세요!",
+              "displayName" : "Pro Monthly",
+              "locale" : "ko"
+            }
+          ],
+          "productID" : "com.WooBi.WeatherSnap.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro Monthly",
+          "subscriptionGroupID" : "B2D3503A",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "3DE467C8",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock daily forecast",
+              "displayName" : "Pro Yearly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "더 많은 날씨를 경험하세요",
+              "displayName" : "Pro Yearly",
+              "locale" : "ko"
+            }
+          ],
+          "productID" : "com.WooBi.WeatherSnap.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Pro Annual",
+          "subscriptionGroupID" : "B2D3503A",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
